@@ -12,7 +12,7 @@ const SkillsSection = () => {
         <Skill name="JavaScript" />
         <Skill name="React" />
         <Skill name="Tailwind CSS" />
-        <Skill name="Firebase" />
+        <Skill name="Firebase" ><img src='../src/icons/javascript-39424.png'></img></Skill>
         {/* Add more Skill components here */}
       </div>
     </section>

@@ -1,4 +1,7 @@
 import React from 'react';
+import Todo from "../src/IMG/To do list.png"
+import Portfolio from "../src/IMG/Portfolio.png"
+import BlackJack from "../src/IMG/black-jack.png"
 
 const ProjectsSection = () => {
   return (
@@ -9,21 +12,21 @@ const ProjectsSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <Project
           title="Portfolio"
-          imgSrc="IMG/Portfolio.png"
+          imgSrc={Portfolio}
           description="I created this portfolio to showcase myself. It includes sections about me, my work, and what I do. The app was built using HTML, CSS, and JavaScript."
           githubLink="https://github.com/ChristopherTsh/CHRTSH528_BCL2401_GroupA_ChristopherThapeloTshoma_SDF06.git"
           liveLink="https://chris-101.netlify.app"
         />
         <Project
           title="To do list"
-          imgSrc="IMG/To do list.png"
+          imgSrc={Todo}
           description="This project uses Firebase and is hosted on Netlify. It allows you to add tasks that update in real-time. You can tap a task to mark it as completed."
           githubLink="https://github.com/ChristopherTsh/todo-list"
           liveLink="https://todo-list.netlify.app"
         />
         <Project
           title="To do list"
-          imgSrc="IMG/To do list.png"
+          imgSrc={BlackJack}
           description="This project uses Firebase and is hosted on Netlify. It allows you to add tasks that update in real-time. You can tap a task to mark it as completed."
           githubLink="https://github.com/ChristopherTsh/todo-list"
           liveLink="https://todo-list.netlify.app"
