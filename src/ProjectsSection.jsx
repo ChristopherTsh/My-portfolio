@@ -21,7 +21,13 @@ const ProjectsSection = () => {
           githubLink="https://github.com/ChristopherTsh/todo-list"
           liveLink="https://todo-list.netlify.app"
         />
-        {/* Add more Project components here */}
+        <Project
+          title="To do list"
+          imgSrc="IMG/To do list.png"
+          description="This project uses Firebase and is hosted on Netlify. It allows you to add tasks that update in real-time. You can tap a task to mark it as completed."
+          githubLink="https://github.com/ChristopherTsh/todo-list"
+          liveLink="https://todo-list.netlify.app"
+        />
       </div>
     </section>
   );
