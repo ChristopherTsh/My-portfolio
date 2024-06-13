@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import Navbar from '../src/Navbar';
 import HeroSection from '../src/HeroSection';
 import SpecialtiesSection from '../src/SpecialtiesSection';
@@ -12,6 +12,16 @@ import ContactModal from '../src/ContactModal';
 
 function App() {
   
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
   return (
     <div className="bg-gray-100 text-gray-900">
       <Navbar />
@@ -20,9 +30,9 @@ function App() {
       <ProjectsSection />
       <AboutSection />
       <SkillsSection />
-      <ConnectSection />
+      <ConnectSection openContactModal={openModal}  />
       <Footer />
-      <ContactModal />
+      <ContactModal isOpen={isModalOpen} onClose={closeModal}  />
     </div>
   );
 }
