@@ -9,7 +9,7 @@ const AboutSection = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2">
-          <img className="rounded-lg shadow-lg" src={MyImg} alt="Christopher Tshoma" />
+          <img className="rounded-lg shadow-lg w-96" src={MyImg} alt="Christopher Tshoma" />
         </div>
         <div className="w-full md:w-1/2 md:pl-10 mt-6 md:mt-0">
           <p className="text-gray-700 text-lg leading-relaxed">

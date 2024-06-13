@@ -9,7 +9,9 @@ import ConnectSection from '../src/ConnectSection';
 import Footer from '../src/Footer';
 import ContactModal from '../src/ContactModal';
 
+
 function App() {
+  
   return (
     <div className="bg-gray-100 text-gray-900">
       <Navbar />

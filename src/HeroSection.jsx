@@ -9,7 +9,7 @@ const HeroSection = () => {
         <h2 className="mb-6 text-4xl font-normal leading-7 lg:w-3/4 text-indigo-600">SOFTWARE Developer</h2>
       </div>
       <div className="items-center justify-center hidden col-span-1 md:flex">
-        <img src={profileImage} alt="CHRISTOPHER TSHOMA" className="rounded-full shadow-lg" />
+        <img src={profileImage} alt="CHRISTOPHER TSHOMA" className="rounded-full shadow-lg w-56" />
       </div>
     </section>
   );
