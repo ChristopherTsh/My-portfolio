@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/IMG_20240524_132742_325.jpg';
+import profileImage from '../src/IMG/IMG_20240524_132742_325.jpg';
 
 const HeroSection = () => {
   return (

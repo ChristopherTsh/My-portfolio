@@ -36,9 +36,6 @@ const Navbar = () => {
             <a href="#about" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">About</a>
             <a href="#connect" className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300">Social-Media</a>
           </div>
-          <div>
-            <a href="#" id="contact-link" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 lg:mt-0">Contact Me</a>
-          </div>
         </div>
       </nav>
     );
