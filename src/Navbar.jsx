@@ -11,7 +11,15 @@ const Navbar = () => {
     return (
       <nav className="flex items-center justify-between flex-wrap bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <span className="font-semibold text-xl tracking-tight">Christopher Tshoma</span>
+        <video
+          src="../src/IMG/green modern company animated logo.mp4"
+          autoPlay
+          loop
+          muted
+          className="h-16
+           w-auto"
+          alt="Christopher Tshoma Logo"
+        />
         </div>
         <div className="block lg:hidden">
           <button
