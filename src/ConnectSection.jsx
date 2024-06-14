@@ -1,5 +1,9 @@
 import React from 'react';
-
+import YouTubeIcon from "../src/icons/youtube-logo-png-3572.png"
+import GitHubIcon from "../src/icons/github.png"
+import LinkedInIcon from "../src/icons/linkedin-logo-png-2025.png"
+import XIcon from "../src/icons/twitter-icon-98.png"
+import MediumIcon from "../src/icons/medium.png"
 const ConnectSection = ({ openContactModal }) => {
   return (
     <section className="connect-section bg-white text-gray-900 py-12" id="connect">
@@ -8,19 +12,19 @@ const ConnectSection = ({ openContactModal }) => {
         <p className="mb-8">Feel free to reach out through any of the platforms below:</p>
         <div className="flex justify-center space-x-4 mb-8">
         <a href="https://github.com/ChristopherTsh" target="_blank" rel="noopener noreferrer">
-          <img src="../src/icons/github.png" alt="GitHub" className="h-8 w-8" />
+        <img src={GitHubIcon} alt="LinkedIn" className="h-8 w-8" />
         </a>
         <a href="https://www.linkedin.com/in/christophertshoma" target="_blank" rel="noopener noreferrer">
-          <img src="../src/icons/linkedin-logo-png-2025.png" alt="LinkedIn" className="h-8 w-8" />
+          <img src={LinkedInIcon } alt="LinkedIn" className="h-8 w-8" />
         </a>
         <a href="https://twitter.com/ChristopherTshoma" target="_blank" rel="noopener noreferrer">
-          <img src="../src/icons/twitter-icon-98.png" alt="Twitter" className="h-8 w-8" />
+          <img src={XIcon} alt="Twitter" className="h-8 w-8" />
         </a>
         <a href="https://www.youtube.com/@ChristopherTshoma" target="_blank" rel="noopener noreferrer">
-          <img src="../src/icons/youtube-logo-png-3572.png" alt="YouTube" className="h-8 w-8" />
+          <img src={YouTubeIcon} alt="YouTube" className="h-8 w-8" />
         </a>
         <a href="https://medium.com/@ChristopherTshoma" target="_blank" rel="noopener noreferrer">
-          <img src="../src/icons/medium.png" alt="Medium" className="h-8 w-8" />
+          <img src={MediumIcon } alt="Medium" className="h-8 w-8" />
         </a>
       </div>
         <button
