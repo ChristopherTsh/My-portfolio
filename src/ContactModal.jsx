@@ -20,7 +20,7 @@ const ContactModal = ({ isOpen, onClose }) => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'YOUR_SERVICE_ID',  // Replace with your EmailJS service ID
+      'service_jkofgrm',  // Replace with your EmailJS service ID
       'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
       e.target,
       'YOUR_USER_ID'      // Replace with your EmailJS user ID
