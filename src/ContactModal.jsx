@@ -20,10 +20,10 @@ const ContactModal = ({ isOpen, onClose }) => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_jkofgrm',  // Replace with your EmailJS service ID
-      'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+      'gmail',  // Replace with your EmailJS service ID
+      'Chris1995', // Replace with your EmailJS template ID
       e.target,
-      'YOUR_USER_ID'      // Replace with your EmailJS user ID
+      'UpXKRdMzKh3KB-yV3'      // Replace with your EmailJS user ID
     ).then((result) => {
         console.log(result.text);
         onClose();
